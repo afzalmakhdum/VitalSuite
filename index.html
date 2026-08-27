@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-neutral-950 text-neutral-100 scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vital Suite | Complete Care Management & CQC Compliance Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #0a0a0a; }
+    ::-webkit-scrollbar-thumb { background: #262626; border-radius: 3px; }
+
+    /* Custom Tech Grid Background */
+    .bg-grid-pattern {
+      background-size: 40px 40px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    }
+  </style>
+</head>
+<body class="min-h-full flex flex-col justify-between antialiased selection:bg-orange-500 selection:text-black bg-neutral-950 bg-grid-pattern relative">
+
+  <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-gradient-to-b from-orange-600/15 via-orange-900/5 to-transparent blur-[120px] pointer-events-none -z-10"></div>
+  <div class="fixed bottom-0 right-0 w-[600px] h-[600px] bg-orange-600/5 blur-[150px] pointer-events-none -z-10"></div>
+
+  <nav class="sticky top-0 z-50 bg-neutral-950/80 backdrop-blur-xl border-b border-neutral-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-orange-600 to-amber-500 flex items-center justify-center font-black text-black text-xl shadow-lg shadow-orange-500/20">
+          V
+        </div>
+        <span class="text-2xl font-black tracking-tight text-white">Vital<span class="text-orange-500">Suite</span></span>
+      </div>
+      
+      <div class="hidden md:flex space-x-8 text-sm font-medium text-neutral-300">
+        <a href="#features" class="hover:text-orange-400 transition">Modules</a>
+        <a href="#cqc" class="hover:text-orange-400 transition">CQC Inspection Readiness</a>
+        <a href="#pricing" class="hover:text-orange-400 transition">Pricing</a>
+      </div>
+
+      <div class="flex items-center space-x-4">
+        <a href="#pricing" class="bg-orange-500 hover:bg-orange-400 text-black font-bold px-5 py-2.5 rounded-xl transition text-sm shadow-md shadow-orange-500/10">Book a Demo</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="relative pt-16 pb-24 lg:pt-28 lg:pb-36 overflow-hidden border-b border-neutral-800/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto space-y-6">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-orange-500/10 text-orange-400 border border-orange-500/20 shadow-inner">
+          <span class="w-2 h-2 rounded-full bg-orange-400 animate-pulse"></span> Built for Supported Living & Domiciliary Care
+        </span>
+        <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight">
+          One Operating System for Your Care Agency.
+        </h1>
+        <p class="text-neutral-400 text-lg sm:text-xl font-normal leading-relaxed">
+          Unify rostering, eMARs, shift notes, referral pipelines, and fleet tracking in a single CQC-compliant platform.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4">
+          <a href="#pricing" class="bg-orange-500 hover:bg-orange-400 text-black font-extrabold px-8 py-4 rounded-xl transition transform active:scale-95 text-base shadow-lg shadow-orange-500/20">
+            Start 14-Day Free Trial
+          </a>
+          <a href="#features" class="bg-neutral-900/80 hover:bg-neutral-800 border border-neutral-700 text-neutral-200 font-bold px-8 py-4 rounded-xl transition text-base backdrop-blur-md">
+            Explore All Modules
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-16 relative rounded-2xl border border-neutral-800/80 bg-neutral-900/60 p-3 shadow-2xl backdrop-blur-xl">
+        <div class="flex items-center justify-between px-4 py-3 bg-neutral-950/80 rounded-xl border border-neutral-800/60 mb-3">
+          <div class="flex space-x-2">
+            <div class="w-3 h-3 rounded-full bg-rose-500/80"></div>
+            <div class="w-3 h-3 rounded-full bg-amber-500/80"></div>
+            <div class="w-3 h-3 rounded-full bg-orange-500/80"></div>
+          </div>
+          <span class="text-xs text-neutral-500 font-mono">app.vitalsuite.co.uk/dashboard</span>
+          <div class="w-12"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-4 bg-neutral-950/60 rounded-xl border border-neutral-800/40">
+          <div class="bg-neutral-900/80 border border-neutral-800 p-5 rounded-xl space-y-2">
+            <p class="text-xs text-neutral-400 font-medium uppercase tracking-wider">Shift Completion</p>
+            <h3 class="text-2xl font-bold text-orange-400">99.4%</h3>
+            <p class="text-xs text-neutral-500">142 visits today</p>
+          </div>
+          <div class="bg-neutral-900/80 border border-neutral-800 p-5 rounded-xl space-y-2">
+            <p class="text-xs text-neutral-400 font-medium uppercase tracking-wider">Active eMAR Alerts</p>
+            <h3 class="text-2xl font-bold text-rose-400">0 Missed</h3>
+            <p class="text-xs text-neutral-500">Real-time medication logs</p>
+          </div>
+          <div class="bg-neutral-900/80 border border-neutral-800 p-5 rounded-xl space-y-2">
+            <p class="text-xs text-neutral-400 font-medium uppercase tracking-wider">Open Referrals</p>
+            <h3 class="text-2xl font-bold text-amber-400">8 Active</h3>
+            <p class="text-xs text-neutral-500">Local Authorities & Private</p>
+          </div>
+          <div class="bg-neutral-900/80 border border-neutral-800 p-5 rounded-xl space-y-2">
+            <p class="text-xs text-neutral-400 font-medium uppercase tracking-wider">CQC Audit Status</p>
+            <h3 class="text-2xl font-bold text-orange-400">Ready</h3>
+            <p class="text-xs text-neutral-500">Auto-generated reports</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+    <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+      <h2 class="text-3xl font-extrabold text-white">Everything Your Agency Needs</h2>
+      <p class="text-neutral-400">Designed specifically for Supported Living and Domiciliary Care operators.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-neutral-900/40 border border-neutral-800/80 p-8 rounded-2xl hover:border-orange-500/50 hover:bg-neutral-900/70 backdrop-blur-md transition duration-300">
+        <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center font-bold text-xl mb-6 border border-orange-500/20">🗓️</div>
+        <h3 class="text-xl font-bold text-white mb-2">Smart Rostering</h3>
+        <p class="text-neutral-400 text-sm leading-relaxed">Automated shift allocation, staff matching based on training, travel time optimizations, and real-time clock-in tracking.</p>
+      </div>
+
+      <div class="bg-neutral-900/40 border border-neutral-800/80 p-8 rounded-2xl hover:border-orange-500/50 hover:bg-neutral-900/70 backdrop-blur-md transition duration-300">
+        <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center font-bold text-xl mb-6 border border-orange-500/20">💊</div>
+        <h3 class="text-xl font-bold text-white mb-2">Digital eMARs</h3>
+        <p class="text-neutral-400 text-sm leading-relaxed">Eliminate paper MAR charts. Track dose schedules, body maps, double-sign protocols, and receive instant missed medication alerts.</p>
+      </div>
+
+      <div class="bg-neutral-900/40 border border-neutral-800/80 p-8 rounded-2xl hover:border-orange-500/50 hover:bg-neutral-900/70 backdrop-blur-md transition duration-300">
+        <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center font-bold text-xl mb-6 border border-orange-500/20">📝</div>
+        <h3 class="text-xl font-bold text-white mb-2">Shift Notes & Logs</h3>
+        <p class="text-neutral-400 text-sm leading-relaxed">Structured daily care logs, incident reporting, fluid/nutrition charts, and instant handover summaries for incoming support workers.</p>
+      </div>
+
+      <div class="bg-neutral-900/40 border border-neutral-800/80 p-8 rounded-2xl hover:border-orange-500/50 hover:bg-neutral-900/70 backdrop-blur-md transition duration-300">
+        <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center font-bold text-xl mb-6 border border-orange-500/20">🛡️</div>
+        <h3 class="text-xl font-bold text-white mb-2">CQC Compliance & QA</h3>
+        <p class="text-neutral-400 text-sm leading-relaxed">Quality Assurance audits mapped directly to CQC key lines of enquiry (KLOEs) and single assessment frameworks.</p>
+      </div>
+
+      <div class="bg-neutral-900/40 border border-neutral-800/80 p-8 rounded-2xl hover:border-orange-500/50 hover:bg-neutral-900/70 backdrop-blur-md transition duration-300">
+        <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center font-bold text-xl mb-6 border border-orange-500/20">📈</div>
+        <h3 class="text-xl font-bold text-white mb-2">Referral Tracking</h3>
+        <p class="text-neutral-400 text-sm leading-relaxed">Pipeline management for Local Authority and private referrals. Track assessment reports, weekly costings, and conversion rates.</p>
+      </div>
+
+      <div class="bg-neutral-900/40 border border-neutral-800/80 p-8 rounded-2xl hover:border-orange-500/50 hover:bg-neutral-900/70 backdrop-blur-md transition duration-300">
+        <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center font-bold text-xl mb-6 border border-orange-500/20">🚗</div>
+        <h3 class="text-xl font-bold text-white mb-2">Fleet & Mileage</h3>
+        <p class="text-neutral-400 text-sm leading-relaxed">GPS route validation, staff mileage expense logging, vehicle compliance checks, and MOT/insurance expiry trackers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="relative bg-neutral-900/30 border-y border-neutral-800/80 py-24 backdrop-blur-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-xl mx-auto mb-12 space-y-4">
+        <h2 class="text-3xl font-extrabold text-white">Simple, Transparent Pricing</h2>
+        <p class="text-neutral-400 text-sm">No hidden setup fees. Full access to every single module.</p>
+        
+        <div class="flex items-center justify-center space-x-4 pt-4">
+          <span id="monthly-label" class="text-sm font-semibold text-white">Monthly</span>
+          <button onclick="togglePricing()" id="toggle-bg" class="w-14 h-8 bg-orange-500 rounded-full p-1 transition duration-300 focus:outline-none shadow-lg shadow-orange-500/20">
+            <div id="toggle-circle" class="w-6 h-6 bg-black rounded-full transition duration-300 transform translate-x-0"></div>
+          </button>
+          <span id="annual-label" class="text-sm font-semibold text-neutral-400">Annual</span>
+        </div>
+      </div>
+
+      <div class="max-w-lg mx-auto bg-neutral-900/90 border-2 border-orange-500 p-8 rounded-3xl shadow-2xl relative backdrop-blur-xl">
+        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-orange-500 text-black font-black text-xs uppercase px-4 py-1 rounded-full tracking-wider shadow-md">
+          All-Inclusive Suite
+        </div>
+
+        <div class="text-center pb-8 border-b border-neutral-800 space-y-4">
+          <h3 class="text-2xl font-bold text-white">Vital Suite Enterprise</h3>
+          <div class="flex items-baseline justify-center space-x-2">
+            <span class="text-5xl font-extrabold text-white tracking-tight" id="price-amount">£250</span>
+            <span class="text-neutral-400 font-medium" id="price-period">/ month</span>
+          </div>
+          <p class="text-xs text-neutral-400" id="billing-subtitle">Billed monthly. Cancel anytime.</p>
+        </div>
+
+        <ul class="py-8 space-y-4 text-sm text-neutral-300">
+          <li class="flex items-center space-x-3"><span class="text-orange-400 font-bold">✓</span> Unlimited Service Users & Staff</li>
+          <li class="flex items-center space-x-3"><span class="text-orange-400 font-bold">✓</span> Full Rostering & GPS Clock-In</li>
+          <li class="flex items-center space-x-3"><span class="text-orange-400 font-bold">✓</span> Digital eMAR & Missed Dose Alerts</li>
+          <li class="flex items-center space-x-3"><span class="text-orange-400 font-bold">✓</span> CQC Compliance Audit Reports</li>
+          <li class="flex items-center space-x-3"><span class="text-orange-400 font-bold">✓</span> Local Authority Referral Tracker</li>
+          <li class="flex items-center space-x-3"><span class="text-orange-400 font-bold">✓</span> Fleet & Mileage Logs</li>
+          <li class="flex items-center space-x-3"><span class="text-orange-400 font-bold">✓</span> 24/7 Priority Support & Onboarding</li>
+        </ul>
+
+        <button onclick="alert('Trial signup initiated!')" class="w-full bg-orange-500 hover:bg-orange-400 text-black font-extrabold py-4 rounded-xl transition text-center uppercase tracking-wider text-sm shadow-lg shadow-orange-500/20">
+          Get Started Now
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-neutral-950/90 text-neutral-500 text-sm py-12 border-t border-neutral-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="flex items-center space-x-2">
+        <span class="font-bold text-white">Vital Suite</span>
+        <span>© 2026 Vital Care Technologies Ltd. All rights reserved.</span>
+      </div>
+      <div class="flex space-x-6 text-xs">
+        <a href="#" class="hover:text-neutral-400">Privacy Policy</a>
+        <a href="#" class="hover:text-neutral-400">Terms of Service</a>
+        <a href="#" class="hover:text-neutral-400">CQC Data Security</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let isAnnual = false;
+    function togglePricing() {
+      isAnnual = !isAnnual;
+      const amount = document.getElementById('price-amount');
+      const period = document.getElementById('price-period');
+      const subtitle = document.getElementById('billing-subtitle');
+      const circle = document.getElementById('toggle-circle');
+      const monthlyLabel = document.getElementById('monthly-label');
+      const annualLabel = document.getElementById('annual-label');
+
+      if (isAnnual) {
+        amount.innerText = '£3,000';
+        period.innerText = '/ year';
+        subtitle.innerText = 'Billed annually (£250/mo equivalent)';
+        circle.classList.add('translate-x-6');
+        monthlyLabel.classList.replace('text-white', 'text-neutral-400');
+        annualLabel.classList.replace('text-neutral-400', 'text-white');
+      } else {
+        amount.innerText = '£250';
+        period.innerText = '/ month';
+        subtitle.innerText = 'Billed monthly. Cancel anytime.';
+        circle.classList.remove('translate-x-6');
+        monthlyLabel.classList.replace('text-neutral-400', 'text-white');
+        annualLabel.classList.replace('text-white', 'text-neutral-400');
+      }
+    }
+  </script>
+</body>
+</html>
